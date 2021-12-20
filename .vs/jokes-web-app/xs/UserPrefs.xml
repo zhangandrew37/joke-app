@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{07AC051B-1447-431F-A7F3-C5B185187F4F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="jokes-web-app/Data/Migrations/00000000000000_CreateIdentitySchema.cs">
+    <Files>
+      <File FileName="jokes-web-app/Controllers/HomeController.cs" Line="10" Column="36" />
+      <File FileName="jokes-web-app/Models/Joke.cs" Line="11" Column="10" />
+      <File FileName="jokes-web-app/Controllers/JokesController.cs" Line="1" Column="1" />
+      <File FileName="jokes-web-app/Data/Migrations/00000000000000_CreateIdentitySchema.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="jokes-web-app" expanded="True">
+            <Node name="jokes-web-app" expanded="True">
+              <Node name="Areas" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="Migrations" expanded="True">
+                  <Node name="00000000000000_CreateIdentitySchema.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Jokes" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.jokes-web-app PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
