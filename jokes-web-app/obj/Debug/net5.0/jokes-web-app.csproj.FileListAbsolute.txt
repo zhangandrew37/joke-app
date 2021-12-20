@@ -264,3 +264,6 @@
 /Users/andrewzhang/Desktop/joke-app/jokes-web-app/obj/Debug/net5.0/Razor/Views/Jokes/Details.cshtml.g.cs
 /Users/andrewzhang/Desktop/joke-app/jokes-web-app/obj/Debug/net5.0/Razor/Views/Jokes/Edit.cshtml.g.cs
 /Users/andrewzhang/Desktop/joke-app/jokes-web-app/obj/Debug/net5.0/Razor/Views/Jokes/Index.cshtml.g.cs
+/Users/andrewzhang/Desktop/joke-app/jokes-web-app/bin/Debug/net5.0/log4net.dll
+/Users/andrewzhang/Desktop/joke-app/jokes-web-app/bin/Debug/net5.0/Migrations.dll
+/Users/andrewzhang/Desktop/joke-app/jokes-web-app/bin/Debug/net5.0/jokes-web-app
