@@ -1,2 +1,2 @@
 # joke-app
-asp.net c# app
+ASP.NET C# web application
