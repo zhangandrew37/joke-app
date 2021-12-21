@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using jokes_web_app.Data;
 using jokes_web_app.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace jokes_web_app.Controllers
 {
@@ -56,6 +57,8 @@ namespace jokes_web_app.Controllers
         }
 
         // GET: Jokes/Create
+
+        [Authorize]
         public IActionResult Create()
         {
             return View();
@@ -64,6 +67,7 @@ namespace jokes_web_app.Controllers
         // POST: Jokes/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,JokeQuestion,JokeAnswer")] Joke joke)
@@ -96,6 +100,7 @@ namespace jokes_web_app.Controllers
         // POST: Jokes/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,JokeQuestion,JokeAnswer")] Joke joke)
@@ -129,6 +134,7 @@ namespace jokes_web_app.Controllers
         }
 
         // GET: Jokes/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -147,6 +153,7 @@ namespace jokes_web_app.Controllers
         }
 
         // POST: Jokes/Delete/5
+        [Authorize]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
